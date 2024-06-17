@@ -1,7 +1,7 @@
 args <- commandArgs(TRUE)
 if(length(args)!=4)
 {
-        print("<TPMfile> <DEfile> <outdir> <outprefix> <avg_log2FC> <p_val_adj>")
+        print("<TPMfile> <DEfile> <outdir> <outprefix>")
         print("A title line should be included in infile.")
         print("Author: Yang Junhui")
         q()
